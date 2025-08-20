@@ -22,7 +22,7 @@ Función: Permite agrupar ventanas de distintas aplicaciones en pestañas.
 
 Uso: Aumenta la productividad organizando todo en un solo lugar.
 
-5. RoundedTB ⭐
+5. RoundedTB / TranslucentTB ⭐
 
 Función: Personaliza la barra de tareas, dándole forma redondeada o flotante tipo macOS.
 
