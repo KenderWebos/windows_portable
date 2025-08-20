@@ -16,19 +16,19 @@ Función: Búsqueda rápida tipo Spotlight para abrir aplicaciones o archivos.
 
 Uso: Sustituye la búsqueda nativa de Windows, más rápida y eficiente.
 
-4. Groupy
+4. Groupy ⭐
 
 Función: Permite agrupar ventanas de distintas aplicaciones en pestañas.
 
 Uso: Aumenta la productividad organizando todo en un solo lugar.
 
-5. RoundedTB
+5. RoundedTB ⭐
 
 Función: Personaliza la barra de tareas, dándole forma redondeada o flotante tipo macOS.
 
 Uso: Mejora la estética y minimalismo del escritorio.
 
-6. Rainmeter
+6. Rainmeter ⭐
 
 Función: Plataforma para crear widgets y skins personalizadas en el escritorio.
 
