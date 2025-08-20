@@ -1,2 +1,2 @@
 # windows_portable
-a simple repo for hosting IAS for windows
+a simple repo for hosting IAC for windows
