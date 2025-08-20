@@ -3,6 +3,7 @@ Windows Registry Editor Version 5.00
 ; Abrir con VS Code en el fondo de carpetas
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
 @="Abrir con VS Code"
+"Icon"="C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
 @="\"C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%V\""
@@ -10,6 +11,7 @@ Windows Registry Editor Version 5.00
 ; Abrir con VS Code en carpetas
 [HKEY_CLASSES_ROOT\Directory\shell\VSCode]
 @="Abrir con VS Code"
+"Icon"="C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
 
 [HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
 @="\"C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
@@ -17,6 +19,7 @@ Windows Registry Editor Version 5.00
 ; Abrir con VS Code en archivos
 [HKEY_CLASSES_ROOT\*\shell\VSCode]
 @="Abrir con VS Code"
+"Icon"="C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
 
 [HKEY_CLASSES_ROOT\*\shell\VSCode\command]
 @="\"C:\\Users\\kende\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" \"%1\""
