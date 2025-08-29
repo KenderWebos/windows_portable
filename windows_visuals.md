@@ -51,3 +51,7 @@ Uso: Ejemplos: identificar qué programa está usando un archivo, mejorar la nav
 Función: Reconoce y copia texto de imágenes.
 
 Uso: Similar a Google Lens o iOS Live Text, útil para copiar información directamente de imágenes.
+
+10. Ueli ⭐
+
+Ueli Power Launcher!! 
