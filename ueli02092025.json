@@ -1,0 +1,161 @@
+{
+    "extension[BrowserBookmarks].browsers": [
+        "Google Chrome"
+    ],
+    "extension[CustomWebSearch].customSearchEngines": [
+        {
+            "id": "3ee88dd5-f058-4b69-ba14-2fbfab566ee8",
+            "name": "Wikipedia",
+            "prefix": "wiki",
+            "url": "https://en.wikipedia.org/wiki/{{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "3178a8be-08fd-4e42-900e-c0da56e7fa6e",
+            "name": "YouTube",
+            "prefix": "y",
+            "url": "https://www.youtube.com/results?search_query={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "bcdd8c11-22c6-4bf4-b983-4105c2127fbf",
+            "name": "Pinterest",
+            "prefix": "pin",
+            "url": "https://cl.pinterest.com/search/pins/?q={{query}}&rs=typed",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "96ff4be3-2ff9-42bc-8c69-7dcbf0bdfc21",
+            "name": "TikTok",
+            "prefix": "t",
+            "url": "https://www.tiktok.com/search?q={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "251de6c1-53c5-4aa5-ab86-50e0d1270a74",
+            "name": "Cuevana",
+            "prefix": "cuevana",
+            "url": "https://cuevana.biz/search?q={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "56fd1df3-426b-48f9-8505-1b72879ec43e",
+            "name": "ChatGPT",
+            "prefix": "gpt",
+            "url": "https://chat.openai.com/?q={{query}}",
+            "encodeSearchTerm": true
+        }
+    ],
+    "extension[TerminalLauncher].terminalIds": [
+        "Command Prompt"
+    ],
+    "extension[WebSearch].searchEngine": "Google",
+    "extension[WebSearch].showInstantSearchResult": false,
+    "extension[Workflow].workflows": [
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-f83b40e3-7c7a-4c74-bbd7-bc6f2d8a2570",
+                    "args": {
+                        "filePath": "E:\\1. Main"
+                    },
+                    "name": "almacen",
+                    "handlerId": "OpenFile"
+                }
+            ],
+            "name": "almacen",
+            "id": "workflow-a497fa5f-8909-429b-b5c7-37371fa4bc5e",
+            "requiresConfirmation": false
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-7258c526-f1a5-42b0-a789-93845e2d5e61",
+                    "args": {
+                        "filePath": "whatsapp://send?phone=56950376005"
+                    },
+                    "name": "kevin",
+                    "handlerId": "OpenFile"
+                }
+            ],
+            "name": "kevin",
+            "id": "workflow-a932a090-dc47-4e5c-8abd-d7b91a7b73c5"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-7f61e80a-4953-44cf-bd31-126caada97b2",
+                    "args": {
+                        "filePath": "whatsapp://send?phone=56987175335"
+                    },
+                    "name": "mari",
+                    "handlerId": "OpenFile"
+                }
+            ],
+            "name": "mari",
+            "id": "workflow-840ac0f1-ab63-4337-9124-01cde1a29449",
+            "requiresConfirmation": false
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-e0f64a67-79da-4dc6-bb01-f143524fae45",
+                    "args": {
+                        "command": "code \"C:\\Users\\kende\\Desktop\\pymes\""
+                    },
+                    "name": "pymes",
+                    "handlerId": "ExecuteCommand"
+                }
+            ],
+            "name": "pymes",
+            "id": "workflow-aef941f2-b062-41f1-b86b-6cc4943c2ebb"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-c7bdcf12-dd9b-4fe3-94b2-52a38c73080e",
+                    "args": {
+                        "command": "code \"C:\\Users\\kende\\Desktop\\tdah\""
+                    },
+                    "name": "tdah",
+                    "handlerId": "ExecuteCommand"
+                }
+            ],
+            "name": "tdah",
+            "id": "workflow-b414fba2-bdfb-44a6-a3cf-9d508a016c26"
+        }
+    ],
+    "extensions.enabledExtensionIds": [
+        "CustomWebSearch",
+        "WebSearch",
+        "Calculator",
+        "SystemCommands",
+        "Workflow",
+        "FileSearch",
+        "VSCode",
+        "SimpleFileSearch",
+        "BrowserBookmarks",
+        "TerminalLauncher",
+        "ApplicationSearch",
+        "UeliCommand"
+    ],
+    "general.searchHistory.enabled": true,
+    "general.searchHistory.history": [
+        "gpt list me useful url schemes en español",
+        "gpt que es la cosa de la que mas te he hablado ultimamente, y porque crees que te hable tanto de eso",
+        "gpt como puede ser tan genial ueli? que lo hizo tan PRO y buena, me encanta en todos los sentidos",
+        "powershell",
+        "chat",
+        "gta",
+        "tdah",
+        "pymes",
+        "almacen",
+        "files"
+    ],
+    "searchEngine.excludedItems": [
+        "Wikipedia:instantResult",
+        "YouTube:instantResult",
+        "ChatGPT:instantResult"
+    ],
+    "window.alwaysOnTop": false
+}
