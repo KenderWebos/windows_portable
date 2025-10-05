@@ -44,6 +44,48 @@
             "prefix": "gpt",
             "url": "https://chat.openai.com/?q={{query}}",
             "encodeSearchTerm": true
+        },
+        {
+            "id": "3c2e57ab-03a9-421a-8554-22f6ac6e0fca",
+            "name": "MarketPlace",
+            "prefix": "f",
+            "url": "https://www.facebook.com/marketplace/concepcion/search?query={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "e046d192-23a0-4028-8ad6-b381199e175c",
+            "name": "Google Images",
+            "prefix": "img",
+            "url": "https://www.google.com/search?q={{query}}&tbm=isch",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "36a4c085-69f9-4325-a2f8-b41339944dbe",
+            "name": "HeriTech",
+            "prefix": "devin",
+            "url": "http://localhost:8000/{{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "2af62151-2315-4864-8370-97d4dd97e352",
+            "name": "MAPS",
+            "prefix": "maps",
+            "url": "https://www.google.cl/maps/search/{{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "4ea21b44-40a9-4ddd-9028-4bc8616241f3",
+            "name": "Wsp Direct",
+            "prefix": "wsp",
+            "url": "https://api.whatsapp.com/send?phone={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "2d8a8d01-bebd-45e8-a9ab-a380d0799f22",
+            "name": "MAPS GO",
+            "prefix": "go",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Nva+Dos+7,+Concepci%C3%B3n,+Chile&destination={{query}}",
+            "encodeSearchTerm": true
         }
     ],
     "extension[TerminalLauncher].terminalIds": [
@@ -123,6 +165,35 @@
             ],
             "name": "tdah",
             "id": "workflow-b414fba2-bdfb-44a6-a3cf-9d508a016c26"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-57316ee3-b325-4f26-a4ce-8f3ff556866e",
+                    "args": {
+                        "command": "wt.exe -p \"RedBerry Original\" "
+                    },
+                    "name": "berry",
+                    "handlerId": "ExecuteCommand"
+                }
+            ],
+            "name": "berry",
+            "id": "workflow-054ae4ed-7293-445a-a2ee-ecaa76382466"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-b94d8b98-8173-4ab5-9643-1f8da90993bf",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "ssh kender@192.168.1.200"
+                    },
+                    "name": "local berry",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "local berry",
+            "id": "workflow-f235932a-e4c6-4653-9ed0-ad62f12742cb"
         }
     ],
     "extensions.enabledExtensionIds": [
@@ -139,18 +210,20 @@
         "ApplicationSearch",
         "UeliCommand"
     ],
+    "general.hotkey": "Alt+Space",
+    "general.hotkey.enabled": true,
     "general.searchHistory.enabled": true,
     "general.searchHistory.history": [
-        "gpt list me useful url schemes en español",
-        "gpt que es la cosa de la que mas te he hablado ultimamente, y porque crees que te hable tanto de eso",
-        "gpt como puede ser tan genial ueli? que lo hizo tan PRO y buena, me encanta en todos los sentidos",
-        "powershell",
-        "chat",
-        "gta",
-        "tdah",
-        "pymes",
-        "almacen",
-        "files"
+        "go las garzas",
+        "go san pedro",
+        "githu",
+        "wsp 56945263163",
+        "wsp 945263163",
+        "pars",
+        "y run it up",
+        "parsec",
+        "wha",
+        "note"
     ],
     "searchEngine.excludedItems": [
         "Wikipedia:instantResult",
