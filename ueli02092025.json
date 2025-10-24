@@ -88,6 +88,7 @@
             "encodeSearchTerm": true
         }
     ],
+    "extension[SimpleFileSearch].folders": [],
     "extension[TerminalLauncher].terminalIds": [
         "Command Prompt"
     ],
@@ -194,6 +195,95 @@
             ],
             "name": "local berry",
             "id": "workflow-f235932a-e4c6-4653-9ed0-ad62f12742cb"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-8d72e890-b04e-4b56-8cb2-979d076080ac",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "ssh blackberry@192.168.1.100"
+                    },
+                    "name": "connect",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "local blackberry",
+            "id": "workflow-f733c24a-9494-49f7-9be0-96124496b0e6"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-f6ee9d21-98dd-43c2-97d2-4363f209116b",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "cursor \"E:\\2.Unity\\1. GitHub\\Proyecto-EPR\\3. desarrollo-app\\epr_api\""
+                    },
+                    "name": "open epr_api",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "epr_api",
+            "id": "workflow-91d4d648-83cd-4358-9679-9ed37aaba416"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-b4d04eb2-655f-4674-bd3e-62c0181a0670",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "cursor \"E:\\2.Unity\\1. GitHub\\Proyecto-EPR\\3. desarrollo-app\\EPR-APP-FLUTTER\""
+                    },
+                    "name": "open epr_front",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "epr_front",
+            "id": "workflow-281acd86-aac3-4dda-9b7a-ec319d58b279"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-3cda1c90-cc81-45c9-863b-f812f0ce5ad1",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "code \"E:\\2.Unity\\1. GitHub\\Proyecto-EPR\\3. desarrollo-app\\epr_api\""
+                    },
+                    "name": "open_visual_epr_api",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "visual_epr_api",
+            "id": "workflow-29f8f7ca-99c7-4e63-a35f-ed1ed154b4bb"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-350ec8ab-32e3-48f4-ad4d-2b1718382d9f",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "code \"E:\\2.Unity\\1. GitHub\\Proyecto-EPR\""
+                    },
+                    "name": "open_visual_epr_project",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "visual_epr_project",
+            "id": "workflow-34cde20c-8acc-43f2-a8d2-1e24d83d2043"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-acbbaa4a-914a-4c8e-b45a-33c636b6b400",
+                    "args": {
+                        "filePath": "E:\\CAPCUT\\CapCut Drafts"
+                    },
+                    "name": "capcut_open",
+                    "handlerId": "OpenFile"
+                }
+            ],
+            "name": "capcut_open",
+            "id": "workflow-019649fa-a982-41c9-9da2-3ee5877aadc1"
         }
     ],
     "extensions.enabledExtensionIds": [
@@ -214,16 +304,16 @@
     "general.hotkey.enabled": true,
     "general.searchHistory.enabled": true,
     "general.searchHistory.history": [
-        "go las garzas",
-        "go san pedro",
-        "githu",
-        "wsp 56945263163",
-        "wsp 945263163",
-        "pars",
-        "y run it up",
-        "parsec",
-        "wha",
-        "note"
+        "gpt Stock and Option en resumen que es",
+        "y Stock and Option",
+        "y o paris ? meme",
+        "ia",
+        "disco",
+        "note",
+        "wsp 930061964",
+        "y con peras y finanzas",
+        "y estirar imagen capcut",
+        "inven"
     ],
     "searchEngine.excludedItems": [
         "Wikipedia:instantResult",
