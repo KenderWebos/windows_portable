@@ -86,6 +86,20 @@
             "prefix": "go",
             "url": "https://www.google.com/maps/dir/?api=1&origin=Nva+Dos+7,+Concepci%C3%B3n,+Chile&destination={{query}}",
             "encodeSearchTerm": true
+        },
+        {
+            "id": "8afa64d6-8450-45e6-ba8f-259d68775b86",
+            "name": "google it",
+            "prefix": "gg",
+            "url": "https://www.google.com/search?q={{query}}",
+            "encodeSearchTerm": true
+        },
+        {
+            "id": "200892dd-bd79-4faa-899d-675ef392236c",
+            "name": "google it now",
+            "prefix": "ggg",
+            "url": "https://www.google.com/search?q={{query}}&btnI=1",
+            "encodeSearchTerm": true
         }
     ],
     "extension[SimpleFileSearch].folders": [],
@@ -284,6 +298,21 @@
             ],
             "name": "capcut_open",
             "id": "workflow-019649fa-a982-41c9-9da2-3ee5877aadc1"
+        },
+        {
+            "actions": [
+                {
+                    "id": "workflow-action-39858c1c-cad9-4bb6-95bf-29310eed1ffc",
+                    "args": {
+                        "terminalId": "Command Prompt",
+                        "command": "ssh kender@192.168.1.101"
+                    },
+                    "name": "open_thinkserver",
+                    "handlerId": "OpenTerminal"
+                }
+            ],
+            "name": "thinkserver",
+            "id": "workflow-c9c421da-2655-49ae-9178-7a874cc2fad3"
         }
     ],
     "extensions.enabledExtensionIds": [
@@ -304,16 +333,16 @@
     "general.hotkey.enabled": true,
     "general.searchHistory.enabled": true,
     "general.searchHistory.history": [
-        "gpt Stock and Option en resumen que es",
-        "y Stock and Option",
-        "y o paris ? meme",
-        "ia",
-        "disco",
-        "note",
-        "wsp 930061964",
-        "y con peras y finanzas",
-        "y estirar imagen capcut",
-        "inven"
+        "edge",
+        "y pinokio",
+        "ds",
+        "wha",
+        "obs",
+        "eclip",
+        "chrome",
+        "parsec",
+        "desk",
+        "unity hub"
     ],
     "searchEngine.excludedItems": [
         "Wikipedia:instantResult",
